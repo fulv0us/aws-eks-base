@@ -151,3 +151,9 @@ variable "helm_release_history_size" {
   description = "How much helm releases to store"
   default     = 5
 }
+
+variable "postgresql_exporter_enable" {
+  description = "Enable or Disable postgresql-exporter"
+  type        = bool
+  default     = false
+}
