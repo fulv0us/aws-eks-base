@@ -125,4 +125,11 @@ releases:
     repository: https://victoriametrics.github.io/helm-charts
     chart_version: 0.5.9
     namespace: monitoring
+  - id: argo-cd
+    enabled: true
+    chart: argo-cd
+    repository: https://argoproj.github.io/argo-helm
+    chart_version: 3.17.7
+    namespace: cd
+
 
